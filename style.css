@@ -71,28 +71,34 @@
 }
 
 .ex-7-img {
-    transition: filter 2s, width 3s;
+    transition: filter 2s;
 }
 
 .ex-7-img:hover {
-    filter: blur(3px);
-    width: 700px;
+    filter: blur(3px) sepia(50%);
 }
 
 .ex-8-img {
-    transition: filter 2s, margin-left 2.5s, border-radius 3s;
+    transition: filter 2s, border-radius 3s;
 }
 
 .ex-8-img:hover {
-    filter: hue-rotate(180deg);
-    margin-left: 200px;
+    filter: hue-rotate(180deg) sepia(50%);
     border-radius: 100px;
 }
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: filter 2s, border-radius 2.5s, scale 3s;
 }
+
+.ex-9-img:hover {
+    filter: drop-shadow(50px 50px 20px green) contrast(300%);
+    border-radius: 150px;
+    scale: 1.3;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }

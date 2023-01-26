@@ -62,6 +62,33 @@
     width: 500px;
 }
 
+.ex-6-img {
+    transition: filter 0s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img {
+    transition: filter 2s, width 3s;
+}
+
+.ex-7-img:hover {
+    filter: blur(3px);
+    width: 700px;
+}
+
+.ex-8-img {
+    transition: filter 2s, margin-left 2.5s, border-radius 3s;
+}
+
+.ex-8-img:hover {
+    filter: hue-rotate(180deg);
+    margin-left: 200px;
+    border-radius: 100px;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
